@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/ic_baseline_home_24px"
+        android:title="Home" />
+    <item
+        android:id="@+id/searchItem"
+        android:icon="@drawable/ic_baseline_search_24px"
+        android:title="Search" />
+    <item
+        android:id="@+id/addItem"
+        android:icon="@drawable/ic_baseline_add_comment_24px"
+        android:title="Add"
+        app:showAsAction="" />
+    <item
+        android:id="@+id/personItem"
+        android:icon="@drawable/ic_baseline_person_24px"
+        android:title="Room" />
+</menu>

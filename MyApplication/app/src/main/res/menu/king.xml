@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/changeSet"
+        android:title="주제 바꾸기"
+        app:showAsAction="never"/>
+    <item android:id="@+id/startGame"
+        android:title="게임시작"
+        app:showAsAction="never"/>
+
+</menu>

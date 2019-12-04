@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add_set"
+        android:title="세트 추가"
+        app:showAsAction="never"/>
+    <!--<item android:id="@+id/folder_update"
+        android:title="폴더 수정"
+        app:showAsAction="never"/>-->
+    <item android:id="@+id/folder_del"
+        android:title="폴더 삭제"
+        app:showAsAction="never"/>
+
+</menu>

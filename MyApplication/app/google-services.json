@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "309069079136",
+    "firebase_url": "https://snapchat-cfc41.firebaseio.com",
+    "project_id": "snapchat-cfc41",
+    "storage_bucket": "snapchat-cfc41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309069079136:android:b148182b5839e28308d905",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309069079136-p0bbg01nj70o3tanv9qd96cdbde1pmlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDswQII0wn-ulyXquFeMPK3KaYBFdQSqRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309069079136-p0bbg01nj70o3tanv9qd96cdbde1pmlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

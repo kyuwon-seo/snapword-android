@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:id="@+id/makeSet">
+
+    <ImageView
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_marginLeft="8dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_baseline_home_24px"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#838383"
+        android:text="학습 세트 만들기"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:id="@+id/makeFolder">
+        <ImageView
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:layout_marginLeft="8dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_folder_black_24dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#838383"
+            android:text="폴더 만들기"/>
+    </LinearLayout>
+</LinearLayout>
